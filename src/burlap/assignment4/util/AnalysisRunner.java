@@ -92,7 +92,7 @@ public class AnalysisRunner {
 					tf,
 					0.99,
 					hashingFactory,
-					-1, 1, numIterations);
+					-1, 20, numIterations);
 	
 			// run planning from our initial state
 			p = pi.planFromState(initialState);
